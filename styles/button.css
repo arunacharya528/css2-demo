@@ -1,0 +1,51 @@
+.button {
+    padding: 1.5em;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #06c167;
+    color: white;
+    letter-spacing: 0.1em;
+  }
+  
+  .button:hover {
+    background-color: #02aa58;
+  }
+  
+  .button--large {
+    padding: 2.1em;
+    font-size: 1em;
+  }
+  
+  .button--arrow-white:before {
+    width: 20px;
+    float: right;
+    margin-left: 2em;
+    content: url("../assets/svg/arrow-right-white.svg");
+  }
+  
+  .button--background-light {
+    background-color: #e6f9f0;
+    color: #06c167;
+  }
+  
+  .button--background-light:hover {
+    background-color: #cbfbe5;
+  }
+  
+  .button--outline {
+    background-color: transparent;
+    border: 3px solid #06c167;
+    color: #06c167;
+  }
+  .button--outline:hover {
+    color: white;
+  }
+  
+  .button--arrow-green:before {
+    width: 20px;
+    float: right;
+    margin-left: 2em;
+    content: url("../assets/svg/arrow-right-green.svg");
+  }

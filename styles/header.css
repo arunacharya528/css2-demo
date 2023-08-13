@@ -1,0 +1,59 @@
+/* || header */
+
+.header {
+  margin-top: 100px;
+}
+
+.header__left {
+  width: 50%;
+}
+
+.header__right {
+  width: 50%;
+  position: relative;
+}
+
+.header__title {
+  font-size: 4.5em;
+  text-transform: capitalize;
+}
+
+.header__description {
+  padding-bottom: 1em;
+  width: 80%;
+  color: rgb(86, 86, 86);
+}
+.header__image{
+  margin: auto;
+  /* width: fit-content; */
+  display: block;
+}
+.header__logos {
+  margin-top: 5em;
+}
+
+.header__logo {
+  width: 140px;
+}
+
+.header__logo + .header__logo {
+  margin-left: 30px;
+}
+
+.header__rating{
+  position: absolute;
+  top: 18em;
+  left: -2.5em;
+}
+
+.header__review{
+  position: absolute;
+  top: 12.5em;
+  right: 0.5em;
+}
+
+.header__polkadot{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

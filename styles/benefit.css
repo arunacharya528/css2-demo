@@ -1,0 +1,38 @@
+/* || benefit */
+.benefit {
+}
+
+.benefit__left {
+  width: 50%;
+}
+
+.benefit__right {
+  width: 50%;
+}
+
+.benefit__content {
+  padding-left: 3em;
+  padding-top: 5em;
+}
+
+.benefit__sub-title {
+  font-size: 0.9em;
+}
+
+.benefit__title {
+  font-size: 3.8em;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.benefit__list {
+  list-style-image: url("../assets/svg/check.svg");
+  text-transform: capitalize;
+}
+
+.benefit__list li {
+  padding: 0.5em 0;
+  padding-left: 1em;
+}
